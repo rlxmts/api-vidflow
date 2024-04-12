@@ -1,7 +1,6 @@
 function apiVideos( request, response){
     response.json(
-        {
-            "videos": [
+            [
                 {
                 "id": 1,
                 "titulo": "Conhecendo a linguagem Go | Hipsters.Talks",
@@ -106,10 +105,7 @@ function apiVideos( request, response){
                 "id": 13,
                 "categoria": "Inteligência Artificial"
                 }
-            ]
-        }
-            
-    )
+            ])
 }
 
 export default apiVideos;
